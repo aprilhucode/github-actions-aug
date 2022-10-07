@@ -7,7 +7,8 @@ public class ItemControllerTest {
 
     @Test
     void testItem1() {
-        assertEquals(1, 1);
+        fail();
+//        assertEquals(1, 1);
     }
 
     @Test
