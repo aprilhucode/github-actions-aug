@@ -1,0 +1,4 @@
+FROM openjdk:8
+EXPOSE 8080
+COPY target/github-actions-aug.jar github-actions-aug.jar
+ENTRYPOINT ["java","-jar","/github-actions-aug.jar"]

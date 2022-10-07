@@ -55,6 +55,9 @@
 				</configuration>
 			</plugin>
 		</plugins>
+
+		<finalName>github-actions-aug</finalName>
+
 	</build>
 
 </project>
